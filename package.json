@@ -1,11 +1,18 @@
 {
   "name": "co-curriculastic",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "main": "src/main.ts",
+  "repository": "https://github.com/Frityet/co-curriculastic.git",
+  "author": "Amrit Bhogal <ambhogal01@gmail.com>",
+  "license": "GPLv3",
+  "devDependencies": {
+    "typescript": "^5.0.2"
   },
-  "author": "",
-  "license": "GPL-3.0"
+  "packageManager": "yarn@3.5.0",
+  "dependencies": {
+    "ts-node": "^10.9.1"
+  },
+  "scripts": {
+    "start": "ts-node src/main.ts"
+  }
 }
